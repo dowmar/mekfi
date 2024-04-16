@@ -44,9 +44,10 @@
 #Windows
 ~/mekfi >>> python -m venv venv
 ~/mekfi >>> venv\Scripts\activate
-If there is an error in powershell like "“Cannot be loaded because running scripts is disabled on this system”"
-continue below
+# If there is an error in powershell like "“Cannot be loaded because running scripts is disabled on this system”"
+# use this
 ~/mekfi >>> powershell -ExecutionPolicy Bypass venv\Scripts\activate
+# continue below
 ~/mekfi >>> pip install -r requirements.txt
 ~/mekfi >>> copy .env-example .env
 ~/mekfi >>> # Specify your API_ID and API_HASH, the rest is taken by default
