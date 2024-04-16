@@ -26,7 +26,7 @@
 | **APPLY_DAILY_TURBO**    | Whether to use the daily free turbo boost (True / False)                               |
 | **RANDOM_CLICKS_COUNT**  | Random number of taps ([50,200])                                                      |
 | **SLEEP_BETWEEN_TAP**    | Random delay between taps in seconds ([10,25])                                        |
-| **USE_PROXY_FROM_FILE**  | Whether to use proxy from the `bot/config/proxies.txt` file (True / False)             |
+| **USE_PROXY_FROM_FILE**  | (False)            |
 
 ## Installation
 ```shell
@@ -44,6 +44,9 @@
 #Windows
 ~/mekfi >>> python -m venv venv
 ~/mekfi >>> venv\Scripts\activate
+If there is an error in powershell like "“Cannot be loaded because running scripts is disabled on this system”"
+continue below
+~/mekfi >>> powershell -ExecutionPolicy Bypass venv\Scripts\activate
 ~/mekfi >>> pip install -r requirements.txt
 ~/mekfi >>> copy .env-example .env
 ~/mekfi >>> # Specify your API_ID and API_HASH, the rest is taken by default
