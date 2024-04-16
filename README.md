@@ -19,9 +19,9 @@
 | **AUTO_UPGRADE_TAP**     | Should I improve the tap (True / False)                                                |
 | **MAX_TAP_LEVEL**        | Maximum level of tap pumping example : (5)                                                    |
 | **AUTO_UPGRADE_ENERGY**  | Should I improve the tap (True / False)                                                |
-| **MAX_ENERGY_LEVEL**     | Maximum level of tap pumping (eg 5)                                                    |
+| **MAX_ENERGY_LEVEL**     | Maximum level of tap pumping (5)                                                    |
 | **AUTO_UPGRADE_CHARGE**  | Should I improve the tap (True / False)                                                |
-| **MAX_CHARGE_LEVEL**     | Maximum level of tap pumping (eg 5)                                                    |
+| **MAX_CHARGE_LEVEL**     | Maximum level of tap pumping (5)                                                    |
 | **APPLY_DAILY_ENERGY**   | Whether to use the daily free energy boost (True / False)                              |
 | **APPLY_DAILY_TURBO**    | Whether to use the daily free turbo boost (True / False)                               |
 | **RANDOM_CLICKS_COUNT**  | Random number of taps ([50,200])                                                      |
